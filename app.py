@@ -110,6 +110,12 @@ def main():
         imprimir_resultado_optimizacion(resultado_categoria)
         print("\n")
     
+    print("\nResultado de la optimización 4:")
+    for categoria in categorias:
+        resultado_categoria = calcular_productos_categoria_max(articulos_dict, presupuestos_parciales[categoria], categoria)
+        imprimir_resultado_optimizacion(resultado_categoria)
+        print("\n")
+    
     
 def imprimir_resultado_optimizacion(resultado):
         print("Artículos seleccionados:")
@@ -119,26 +125,41 @@ def imprimir_resultado_optimizacion(resultado):
                 print(f"  - {articulo['nombre']} (Cantidad: {articulo['cantidad']}, Precio: {articulo['precio']}, Valoración: {articulo['valoracion']})")
                 precio_total += articulo['cantidad'] * articulo['precio']
         print(f"Valoración total: {resultado['valoracion_total']}")
-        print(f"Precio total: {precio_total}")
+        print(f"Precio total: {precio_total:.2f}")
 
 
 
 def calcular_productos_categoria(diccionario_articulos_general, presupuesto_reducido, categoria_id ,num_articulos):
     articulos_cat = [articulo for articulo in diccionario_articulos_general if articulo['categoria_id'] == categoria_id]
-    bebidas = resolver_mochila_limited_presupuesto(articulos_cat, presupuesto_reducido)
+    art = resolver_mochila_limited_presupuesto(articulos_cat, presupuesto_reducido)
     
-    bebidas_result = {'articulos_seleccionados': [], 'valoracion_total': 0, 'precio_total': 0}
+    art_result = {'articulos_seleccionados': [], 'valoracion_total': 0, 'precio_total': 0}
     
-    # Solo selecciono 2 bebidas, con sus precios y valoraciones. Esttructura de bebidas_result: {'articulos_seleccionados': {'nombre': {'precio': precio, 'valoracion': valoracion}}, 'valoracion_total': valoracion_total, 'precio_total': precio_total}
-    for articulo in bebidas['articulos_seleccionados']:
-        if len(bebidas_result['articulos_seleccionados']) >= num_articulos:
+    # Solo selecciono 2 art, con sus precios y valoraciones. Esttructura de art_result: {'articulos_seleccionados': {'nombre': {'precio': precio, 'valoracion': valoracion}}, 'valoracion_total': valoracion_total, 'precio_total': precio_total}
+    for articulo in art['articulos_seleccionados']:
+        if len(art_result['articulos_seleccionados']) >= num_articulos:
             break
         if articulo['cantidad'] > 0:
-            bebidas_result['articulos_seleccionados'].append({'nombre': articulo['nombre'], 'precio': articulo['precio'], 'valoracion': articulo['valoracion'], 'cantidad': articulo['cantidad']})
-            bebidas_result['valoracion_total'] += articulo['valoracion']
-            bebidas_result['precio_total'] += articulo['precio']
+            art_result['articulos_seleccionados'].append({'nombre': articulo['nombre'], 'precio': articulo['precio'], 'valoracion': articulo['valoracion'], 'cantidad': articulo['cantidad']})
+            art_result['valoracion_total'] += articulo['valoracion']
+            art_result['precio_total'] += articulo['precio']
             
-    return bebidas_result    
+    return art_result    
+
+def calcular_productos_categoria_max(diccionario_articulos_general, presupuesto_reducido, categoria_id):
+        articulos_cat = [articulo for articulo in diccionario_articulos_general if articulo['categoria_id'] == categoria_id]
+        art = resolver_mochila_limited_presupuesto(articulos_cat, presupuesto_reducido)
+        
+        art_result = {'articulos_seleccionados': [], 'valoracion_total': 0, 'precio_total': 0}
+        
+        for articulo in art['articulos_seleccionados']:
+            if articulo['cantidad'] > 0:
+                art_result['articulos_seleccionados'].append({'nombre': articulo['nombre'], 'precio': articulo['precio'], 'valoracion': articulo['valoracion'], 'cantidad': articulo['cantidad']})
+                art_result['valoracion_total'] += articulo['valoracion']
+                art_result['precio_total'] += articulo['precio']
+                
+        return art_result
+
 
 
 if __name__ == '__main__':
