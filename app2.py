@@ -91,12 +91,16 @@ def iniciar_interfaz():
                     if len(selected_ids) > 1:
                         seRepartePresupuesto = messagebox.askyesno("Repartir presupuesto", "¿Desea repartir el presupuesto entre las categorías?")
                         if seRepartePresupuesto:
+                            def fijar_presupuestos():
+                                for categoria in categorias:
+                                    presupuesto = entry_presupuestos[categoria].get()
+                                    presupuestos_parciales[categoria] = float(presupuesto)
+
                             for categoria in categorias:
                                 tk.Label(root, text=f"Ingrese el presupuesto para la categoría {categorias_dict[categoria]}:").pack()
                                 entry_presupuestos[categoria] = tk.Entry(root)
                                 entry_presupuestos[categoria].pack()
-                                presupuesto_categoria = float(entry_presupuestos[categoria].get())
-                                presupuestos_parciales[categoria] = presupuesto_categoria
+                            tk.Button(root, text="Fijar presupuestos", command=fijar_presupuestos).pack()
                         else:
                             presupuestos_parciales = {categoria: float(presupuesto) / len(categorias) for categoria in categorias}
                     else:
@@ -175,8 +179,8 @@ def crear_ventana_resultados(resultado):
             precio_total += articulo['cantidad'] * articulo['precio']
     tk.Label(root, text=f"Valoración total: {resultado['valoracion_total']}").pack()
     tk.Label(root, text=f"Precio total: {precio_total:.2f}").pack()
-    
-    root.mainloop()
+
+
 
 if __name__ == '__main__':
     iniciar_interfaz()
