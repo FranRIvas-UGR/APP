@@ -1,0 +1,386 @@
+[
+    {'id': 150, 'nombre': 'Agua mineral grande Bronchales', 'precio': 126, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 151, 'nombre': 'Agua mineral grande Bronchales', 'precio': 234, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 152, 'nombre': 'Agua mineral grande Bronchales', 'precio': 39, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 153, 'nombre': 'Agua mineral mediana Bronchales', 'precio': 300, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 154, 'nombre': 'Agua mineral mediana Bronchales', 'precio': 50, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 155, 'nombre': 'Agua mineral pequeña Bronchales', 'precio': 162, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 156, 'nombre': 'Agua mineral pequeña Bronchales', 'precio': 27, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 157, 'nombre': 'Agua mineral pequeña Bronchales tapón infantil', 'precio': 227, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 158, 'nombre': 'Agua mineral pequeña Bronchales tapón infantil', 'precio': 38, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 159, 'nombre': 'Agua mineral grande Cortes', 'precio': 89, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 160, 'nombre': 'Agua mineral grande Cortes', 'precio': 78, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 161, 'nombre': 'Agua mineral grande Cortes', 'precio': 150, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 162, 'nombre': 'Agua mineral grande Cortes', 'precio': 25, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 163, 'nombre': 'Agua mineral mediana Cortes', 'precio': 240, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 164, 'nombre': 'Agua mineral mediana Cortes', 'precio': 40, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 165, 'nombre': 'Agua mineral pequeña Cortes', 'precio': 132, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 166, 'nombre': 'Agua mineral pequeña Cortes', 'precio': 22, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 167, 'nombre': 'Agua mineral pequeña Cortes tapón infantil', 'precio': 144, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 168, 'nombre': 'Agua mineral pequeña Cortes tapón infantil', 'precio': 24, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 169, 'nombre': 'Agua mineral grande Bezoya', 'precio': 444, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 170, 'nombre': 'Agua mineral grande Bezoya', 'precio': 74, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 171, 'nombre': 'Agua mineral grande Nestlé Aquarel', 'precio': 354, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 172, 'nombre': 'Agua mineral grande Nestlé Aquarel', 'precio': 59, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 173, 'nombre': 'Agua mineral grande Font Vella', 'precio': 420, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 174, 'nombre': 'Agua mineral grande Font Vella', 'precio': 73, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 175, 'nombre': 'Agua mineral grande Solán de Cabras', 'precio': 522, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 176, 'nombre': 'Agua mineral grande Solán de Cabras', 'precio': 87, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 177, 'nombre': 'Agua mineral grande Lanjarón', 'precio': 420, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 178, 'nombre': 'Agua mineral grande Lanjarón', 'precio': 73, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 179, 'nombre': 'Agua de coco Chaokoh 100% natural', 'precio': 260, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 180, 'nombre': 'Agua mineral con gas grande Vichy Catalan', 'precio': 149, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 181, 'nombre': 'Agua mineral con gas pequeña Vichy Catalan', 'precio': 589, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 182, 'nombre': 'Agua mineral con gas grande Cortes', 'precio': 246, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 183, 'nombre': 'Agua mineral con gas grande Cortes', 'precio': 41, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 184, 'nombre': 'Agua mineral con gas pequeña Cortes', 'precio': 162, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 185, 'nombre': 'Agua mineral con gas pequeña Cortes', 'precio': 27, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 186, 'nombre': 'Agua mineral con gas grande San Pellegrino', 'precio': 816, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 187, 'nombre': 'Agua mineral con gas grande San Pellegrino', 'precio': 136, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 188, 'nombre': 'Agua de soda con sifón La Casa', 'precio': 160, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 189, 'nombre': 'Agua mineral con gas grande Fonter', 'precio': 684, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 190, 'nombre': 'Agua mineral con gas grande Fonter', 'precio': 113, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 191, 'nombre': 'Gaseosa Hacendado grande', 'precio': 50, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 192, 'nombre': 'Gaseosa Hacendado pequeña', 'precio': 192, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 193, 'nombre': 'Gaseosa Hacendado pequeña', 'precio': 32, 'valoracion': 3, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 194, 'nombre': 'Gaseosa La Casera grande', 'precio': 180, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 195, 'nombre': 'Gaseosa La Casera grande', 'precio': 100, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 196, 'nombre': 'Bebida isotónica limón Aquarius', 'precio': 199, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 197, 'nombre': 'Bebida isotónica limón Aquarius', 'precio': 680, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 198, 'nombre': 'Bebida isotónica limón Aquarius', 'precio': 89, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 199, 'nombre': 'Bebida isotónica sabor cítrico Iso drink', 'precio': 100, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 200, 'nombre': 'Bebida isotónica sabor cítrico Iso drink', 'precio': 270, 'valoracion': 3, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 201, 'nombre': 'Bebida isotónica sabor cítrico Iso drink', 'precio': 45, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 202, 'nombre': 'Bebida isotónica naranja Aquarius', 'precio': 199, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 203, 'nombre': 'Bebida isotónica naranja Aquarius', 'precio': 680, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 204, 'nombre': 'Bebida isotónica naranja Aquarius', 'precio': 89, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 205, 'nombre': 'Bebida isotónica limón Aquarius zero azúcar', 'precio': 199, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 206, 'nombre': 'Bebida isotónica de naranja Iso drink', 'precio': 100, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 207, 'nombre': 'Bebida isotónica de naranja Iso drink', 'precio': 270, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 208, 'nombre': 'Bebida isotónica de naranja Iso drink', 'precio': 45, 'valoracion': 3, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 209, 'nombre': 'Bebida isotónica Iso On blue Hacendado', 'precio': 155, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 210, 'nombre': 'Bebida isotónica Iso On blue Hacendado', 'precio': 60, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 211, 'nombre': 'Bebida energética Energy Drink Zero Hacendado', 'precio': 240, 'valoracion': 3, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 212, 'nombre': 'Bebida energética Zero Hacendado', 'precio': 40, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 213, 'nombre': 'Bebida energética Energy Ultra zero Monster', 'precio': 536, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 214, 'nombre': 'Bebida energética Energy Ultra zero Monster', 'precio': 145, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 215, 'nombre': 'Bebida energética energy Monster', 'precio': 536, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 216, 'nombre': 'Bebida energética Energy Monster', 'precio': 145, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 217, 'nombre': 'Bebida energética Energy Drink Hacendado', 'precio': 160, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 218, 'nombre': 'Bebida energética Energy Drink Hacendado', 'precio': 240, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 219, 'nombre': 'Bebida energética Energy Drink Hacendado', 'precio': 40, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 220, 'nombre': 'Bebida energética Red Bull', 'precio': 750, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 221, 'nombre': 'Bebida energética Red Bull', 'precio': 159, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 222, 'nombre': 'Bebida energética original Burn', 'precio': 459, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 223, 'nombre': 'Bebida energética original Burn', 'precio': 125, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 224, 'nombre': 'Gel energético con cafeína Enervit Sport sabor cítricos', 'precio': 360, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 225, 'nombre': 'Bebida energética Mango Loco Monster', 'precio': 536, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 226, 'nombre': 'Bebida energética Mango Loco Monster', 'precio': 145, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 227, 'nombre': 'Bebida energética Furious Energy drink', 'precio': 100, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 228, 'nombre': 'Bebida energética Tropic Energy drink', 'precio': 100, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 229, 'nombre': 'Malta Maltín Polar', 'precio': 700, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 230, 'nombre': 'Malta Maltín Polar', 'precio': 125, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 231, 'nombre': 'Bebida energética zero Watermelon Energy drink', 'precio': 100, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 232, 'nombre': 'Bebida energética Zero Furious Energy drink', 'precio': 100, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 233, 'nombre': 'Refresco Coca-Cola', 'precio': 390, 'valoracion': 3, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 234, 'nombre': 'Refresco Coca-Cola', 'precio': 199, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 235, 'nombre': 'Refresco Coca-Cola', 'precio': 290, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 236, 'nombre': 'Refresco Coca-Cola', 'precio': 149, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 237, 'nombre': 'Refresco Coca-Cola', 'precio': 500, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 238, 'nombre': 'Refresco Coca-Cola', 'precio': 145, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 239, 'nombre': 'Refresco Coca-Cola', 'precio': 972, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 240, 'nombre': 'Refresco Coca-Cola', 'precio': 89, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 241, 'nombre': 'Refresco cola Hacendado', 'precio': 75, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 242, 'nombre': 'Refresco cola Hacendado', 'precio': 198, 'valoracion': 3, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 243, 'nombre': 'Refresco cola Hacendado', 'precio': 33, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 244, 'nombre': 'Refresco Coca-Cola Zero azúcar', 'precio': 972, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 245, 'nombre': 'Refresco Coca-Cola Zero azúcar', 'precio': 89, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 246, 'nombre': 'Refresco Coca-Cola Zero azúcar', 'precio': 390, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 247, 'nombre': 'Refresco Coca-Cola Zero azúcar', 'precio': 199, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 248, 'nombre': 'Refresco Coca-Cola Zero azúcar', 'precio': 290, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 249, 'nombre': 'Refresco Coca-Cola Zero azúcar', 'precio': 149, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 250, 'nombre': 'Refresco Coca-Cola Zero azúcar', 'precio': 500, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 251, 'nombre': 'Refresco Coca-Cola Zero azúcar', 'precio': 145, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 252, 'nombre': 'Refresco Coca-Cola light', 'precio': 729, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 253, 'nombre': 'Refresco Coca-Cola light', 'precio': 89, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 254, 'nombre': 'Refresco Coca-Cola Zero Zero', 'precio': 972, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 255, 'nombre': 'Refresco Coca-Cola Zero Zero', 'precio': 89, 'valoracion': 3, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 256, 'nombre': 'Refresco Coca-Cola Zero Zero', 'precio': 390, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 257, 'nombre': 'Refresco Coca-Cola Zero Zero', 'precio': 199, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 258, 'nombre': 'Refresco cola Hacendado Zero azúcar', 'precio': 75, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 259, 'nombre': 'Refresco cola Hacendado Zero azúcar', 'precio': 198, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 260, 'nombre': 'Refresco cola Hacendado Zero azúcar', 'precio': 33, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 261, 'nombre': 'Refresco cola Hacendado Zero azúcar Zero cafeína', 'precio': 75, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 262, 'nombre': 'Refresco cola Hacendado Zero azúcar Zero cafeína', 'precio': 198, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 263, 'nombre': 'Refresco cola Hacendado Zero azúcar Zero cafeína', 'precio': 33, 'valoracion': 3, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 264, 'nombre': 'Refresco Coca-Cola Zero Zero', 'precio': 972, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 265, 'nombre': 'Refresco Coca-Cola Zero Zero', 'precio': 89, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 266, 'nombre': 'Refresco Coca-Cola Zero Zero', 'precio': 390, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 267, 'nombre': 'Refresco Coca-Cola Zero Zero', 'precio': 199, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 268, 'nombre': 'Refresco cola Hacendado Zero azúcar Zero cafeína', 'precio': 75, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 269, 'nombre': 'Refresco cola Hacendado Zero azúcar Zero cafeína', 'precio': 198, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 270, 'nombre': 'Refresco cola Hacendado Zero azúcar Zero cafeína', 'precio': 33, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 271, 'nombre': 'Refresco Fanta limón', 'precio': 179, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 272, 'nombre': 'Refresco Fanta limón', 'precio': 657, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 273, 'nombre': 'Refresco Fanta limón', 'precio': 75, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 274, 'nombre': 'Refresco Fanta limón zero azúcares añadidos', 'precio': 584, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 275, 'nombre': 'Refresco Fanta limón zero azúcares añadidos', 'precio': 75, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 276, 'nombre': 'Refresco de limón Hacendado fresh gas', 'precio': 92, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 277, 'nombre': 'Refresco de limón Hacendado fresh gas', 'precio': 210, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 278, 'nombre': 'Refresco de limón Hacendado fresh gas', 'precio': 35, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 279, 'nombre': 'Refresco de limón Hacendado zero azúcar fresh gas', 'precio': 92, 'valoracion': 3, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 280, 'nombre': 'Refresco de limón Hacendado zero azúcar fresh gas', 'precio': 210, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 281, 'nombre': 'Refresco de limón Hacendado zero azúcar fresh gas', 'precio': 35, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 282, 'nombre': 'Refresco limón Schweppes original', 'precio': 512, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 283, 'nombre': 'Refresco limón Schweppes original', 'precio': 95, 'valoracion': 3, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 284, 'nombre': 'Bebida zumo de frutas con gas Magic sin alcohol', 'precio': 220, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 285, 'nombre': 'Refresco lima limón Sprite', 'precio': 159, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 286, 'nombre': 'Refresco lima limón Sprite', 'precio': 455, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 287, 'nombre': 'Refresco lima limón Sprite', 'precio': 59, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 288, 'nombre': 'Refresco lima limón Hacendado fresh gas', 'precio': 92, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 289, 'nombre': 'Refresco lima limón Hacendado fresh gas', 'precio': 210, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 290, 'nombre': 'Refresco lima limón Hacendado fresh gas', 'precio': 35, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 291, 'nombre': 'Refresco lima limón Hacendado zero azúcar fresh gas', 'precio': 92, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 292, 'nombre': 'Refresco Fanta naranja', 'precio': 300, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 293, 'nombre': 'Refresco Fanta naranja', 'precio': 179, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 294, 'nombre': 'Refresco Fanta naranja', 'precio': 657, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 295, 'nombre': 'Refresco Fanta naranja', 'precio': 75, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 296, 'nombre': 'Refresco Fanta naranja zero azúcares añadidos', 'precio': 155, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 297, 'nombre': 'Refresco Fanta naranja zero azúcares añadidos', 'precio': 584, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 298, 'nombre': 'Refresco Fanta naranja zero azúcares añadidos', 'precio': 75, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 299, 'nombre': 'Refresco de naranja Hacendado fresh gas', 'precio': 92, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 300, 'nombre': 'Refresco de naranja Hacendado fresh gas', 'precio': 210, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 301, 'nombre': 'Refresco de naranja Hacendado fresh gas', 'precio': 35, 'valoracion': 3, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 302, 'nombre': 'Refresco de naranja Hacendado zero fresh gas', 'precio': 92, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 303, 'nombre': 'Refresco de naranja Hacendado zero fresh gas', 'precio': 210, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 304, 'nombre': 'Refresco de naranja Hacendado zero fresh gas', 'precio': 35, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 305, 'nombre': 'Tónica original Schweppes', 'precio': 512, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 306, 'nombre': 'Tónica original Schweppes', 'precio': 95, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 307, 'nombre': 'Tónica original Schweppes', 'precio': 170, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 308, 'nombre': 'Tónica original Schweppes', 'precio': 528, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 309, 'nombre': 'Tónica original Schweppes', 'precio': 99, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 310, 'nombre': 'Tónica Hacendado', 'precio': 222, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 311, 'nombre': 'Tónica Hacendado', 'precio': 37, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 312, 'nombre': 'Tónica zero calorías Schweppes', 'precio': 512, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 313, 'nombre': 'Tónica zero calorías Schweppes', 'precio': 95, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 314, 'nombre': 'Tónica Nordic Mist', 'precio': 440, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 315, 'nombre': 'Tónica Nordic Mist', 'precio': 65, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 316, 'nombre': 'Tónica pink zero Schweppes', 'precio': 512, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 317, 'nombre': 'Tónica pink zero Schweppes', 'precio': 95, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 318, 'nombre': 'Bitter Kas sin alcohol', 'precio': 99, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 319, 'nombre': 'Refresco té verde Hacendado', 'precio': 100, 'valoracion': 3, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 320, 'nombre': 'Refresco té sabor limón Hacendado', 'precio': 100, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 321, 'nombre': 'Refresco té sabor melocotón Hacendado zero', 'precio': 100, 'valoracion': 6, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 322, 'nombre': 'Refresco té sabor melocotón Hacendado', 'precio': 100, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 323, 'nombre': 'Refresco té sabor limón Hacendado para diluir', 'precio': 150, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 324, 'nombre': 'Refresco té sabor melocotón Hacendado para diluir', 'precio': 150, 'valoracion': 9, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 325, 'nombre': 'Refresco té sabor mango Hacendado zero', 'precio': 100, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 326, 'nombre': 'Refresco té sabor limón Hacendado', 'precio': 300, 'valoracion': 2, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 327, 'nombre': 'Refresco té sabor limón Hacendado', 'precio': 50, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 328, 'nombre': 'Refresco té sabor limón Hacendado zero', 'precio': 100, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 329, 'nombre': 'Refresco té sabor limón Fuze Tea', 'precio': 199, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 330, 'nombre': 'Refresco té sabor limón Fuze Tea', 'precio': 712, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 331, 'nombre': 'Refresco té sabor limón Fuze Tea', 'precio': 99, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 332, 'nombre': 'Limonada Don Simón light sin gas', 'precio': 150, 'valoracion': 10, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 333, 'nombre': 'Refresco de naranja Simon Life sin gas', 'precio': 185, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 334, 'nombre': 'Refresco de naranja Gold Spring sin gas', 'precio': 140, 'valoracion': 7, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 335, 'nombre': 'Refresco de naranja Gold Spring sin gas', 'precio': 150, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 336, 'nombre': 'Refresco fusión de frutas Gold Spring cero sin gas', 'precio': 140, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 337, 'nombre': 'Bebida Florida Sunny Delight', 'precio': 150, 'valoracion': 4, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 338, 'nombre': 'Refresco piña-coco Gold Spring cero sin gas', 'precio': 140, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 339, 'nombre': 'Agua de coco Chaokoh 100% natural', 'precio': 260, 'valoracion': 8, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 340, 'nombre': 'Refresco Tropical Hacendado sin gas', 'precio': 110, 'valoracion': 1, 'categoria_id': 2, 'min': 0, 'max': 1
+    },
+    {'id': 341, 'nombre': 'Limonada Hacendado light sin gas', 'precio': 150, 'valoracion': 5, 'categoria_id': 2, 'min': 0, 'max': 1
+    }
+]
