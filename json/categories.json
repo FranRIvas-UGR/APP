@@ -1,0 +1,708 @@
+{
+    "categorias": [
+        {
+            "name": "Aceite",
+            "id": 1
+        },
+        {
+            "name": "Vinagre",
+            "id": 2
+        },
+        {
+            "name": "Salsa",
+            "id": 3
+        },
+        {
+            "name": "Sal",
+            "id": 4
+        },
+        {
+            "name": "Sazonador",
+            "id": 5
+        },
+        {
+            "name": "Bicarbonato",
+            "id": 6
+        },
+        {
+            "name": "Limon",
+            "id": 7
+        },
+        {
+            "name": "Especias",
+            "id": 8
+        },
+        {
+            "name": "Refrescos",
+            "id": 9
+        },
+        {
+            "name": "Agua",
+            "id": 10
+        },
+        {
+            "name": "Zumo",
+            "id": 11
+        },
+        {
+            "name": "Bebida energética",
+            "id": 12
+        },
+        {
+            "name": "Bebida isotónica",
+            "id": 13
+        },
+        {
+            "name": "Té",
+            "id": 14
+        },
+        {
+            "name": "Tónica",
+            "id": 15
+        },
+        {
+            "name": "Café",
+            "id": 16
+        },
+        {
+            "name": "Pollo",
+            "id": 18
+        },
+        {
+            "name": "Ternera",
+            "id": 19
+        },
+        {
+            "name": "Cerdo",
+            "id": 20
+        },
+        {
+            "name": "Cordero",
+            "id": 21
+        },
+        {
+            "name": "Pavo",
+            "id": 22
+        },
+        {
+            "name": "Conejo",
+            "id": 23
+        },
+        {
+            "name": "Carne",
+            "id": 26
+        },
+        {
+            "name": "Queso",
+            "id": 27
+        },
+        {
+            "name": "Embutido",
+            "id": 28
+        },
+        {
+            "name": "Jamón",
+            "id": 29
+        },
+        {
+            "name": "Chorizo",
+            "id": 30
+        },
+        {
+            "name": "Salchichón",
+            "id": 31
+        },
+        {
+            "name": "Lomo",
+            "id": 32
+        },
+        {
+            "name": "Mortadela",
+            "id": 33
+        },
+        {
+            "name": "Salami",
+            "id": 34
+        },
+        {
+            "name": "Fuet",
+            "id": 35
+        },
+        {
+            "name": "Sobrasada",
+            "id": 36
+        },
+        {
+            "name": "Longaniza",
+            "id": 37
+        },
+        {
+            "name": "Charcutería",
+            "id": 38
+        },
+        {
+            "name": "Pan",
+            "id": 39
+        },
+        {
+            "name": "Pastel",
+            "id": 40
+        },
+        {
+            "name": "Galleta",
+            "id": 41
+        },
+        {
+            "name": "Bollería",
+            "id": 42
+        },
+        {
+            "name": "Panadería y pastelería",
+            "id": 43
+        },
+        {
+            "name": "Huevos",
+            "id": 44
+        },
+        {
+            "name": "Leche",
+            "id": 45
+        },
+        {
+            "name": "Mantequilla",
+            "id": 46
+        },
+        {
+            "name": "Bebida",
+            "id": 47
+        },
+        {
+            "name": "Huevos, leche y mantequilla",
+            "id": 48
+        },
+        {
+            "name": "Cereales",
+            "id": 49
+        },
+        {
+            "name": "Galletas",
+            "id": 50
+        },
+        {
+            "name": "Muesli",
+            "id": 51
+        },
+        {
+            "name": "Avena",
+            "id": 52
+        },
+        {
+            "name": "Barritas",
+            "id": 53
+        },
+        {
+            "name": "Obleas, tubitos y tartaletes",
+            "id": 54
+        },
+        {
+            "name": "Cacao",
+            "id": 58
+        },
+        {
+            "name": "Infusión",
+            "id": 59
+        },
+        {
+            "name": "Chocolate",
+            "id": 60
+        },
+        {
+            "name": "Caramelo",
+            "id": 63
+        },
+        {
+            "name": "Edulcorante",
+            "id": 64
+        },
+        {
+            "name": "Siropes",
+            "id": 65
+        },
+        {
+            "name": "Chicle",
+            "id": 66
+        },
+        {
+            "name": "Bombones",
+            "id": 67
+        },
+        {
+            "name": "Azúcar",
+            "id": 68
+        },
+        {
+            "name": "Cremas",
+            "id": 69
+        },
+        {
+            "name": "Golosinas",
+            "id": 70
+        },
+        {
+            "name": "Mermeladas y confituras",
+            "id": 71
+        },
+        {
+            "name": "Miel",
+            "id": 72
+        },
+        {
+            "name": "Turrón",
+            "id": 73
+        },
+        {
+            "name": "Azúcar, caramelos y chocolate",
+            "id": 74
+        },
+        {
+            "name": "Fruta + Leche",
+            "id": 75
+        },
+        {
+            "name": "Smoothie",
+            "id": 77
+        },
+        {
+            "name": "Yogur",
+            "id": 78
+        },
+        {
+            "name": "Postre",
+            "id": 79
+        },
+        {
+            "name": "Flan",
+            "id": 80
+        },
+        {
+            "name": "Natillas",
+            "id": 81
+        },
+        {
+            "name": "Bífidus",
+            "id": 82
+        },
+        {
+            "name": "Gelatina",
+            "id": 83
+        },
+        {
+            "name": "Manzana",
+            "id": 85
+        },
+        {
+            "name": "Pera",
+            "id": 86
+        },
+        {
+            "name": "Uva",
+            "id": 87
+        },
+        {
+            "name": "Ensalada",
+            "id": 88
+        },
+        {
+            "name": "Tomate",
+            "id": 89
+        },
+        {
+            "name": "Lechuga",
+            "id": 90
+        },
+        {
+            "name": "Patata",
+            "id": 91
+        },
+        {
+            "name": "Zanahoria",
+            "id": 92
+        },
+        {
+            "name": "Plátano",
+            "id": 93
+        },
+        {
+            "name": "Naranja",
+            "id": 94
+        },
+        {
+            "name": "Limón",
+            "id": 95
+        },
+        {
+            "name": "Melón",
+            "id": 97
+        },
+        {
+            "name": "Piña",
+            "id": 99
+        },
+        {
+            "name": "Kiwi",
+            "id": 100
+        },
+        {
+            "name": "Mango",
+            "id": 101
+        },
+        {
+            "name": "Papaya",
+            "id": 102
+        },
+        {
+            "name": "Aguacate",
+            "id": 103
+        },
+        {
+            "name": "Cebolla",
+            "id": 104
+        },
+        {
+            "name": "Pimiento",
+            "id": 105
+        },
+        {
+            "name": "Calabacín",
+            "id": 106
+        },
+        {
+            "name": "Berenjena",
+            "id": 107
+        },
+        {
+            "name": "Pepino",
+            "id": 108
+        },
+        {
+            "name": "Calabaza",
+            "id": 109
+        },
+        {
+            "name": "Brócoli",
+            "id": 110
+        },
+        {
+            "name": "Coliflor",
+            "id": 111
+        },
+        {
+            "name": "Espinaca",
+            "id": 112
+        },
+        {
+            "name": "Alcachofa",
+            "id": 113
+        },
+        {
+            "name": "Apio",
+            "id": 114
+        },
+        {
+            "name": "Remolacha",
+            "id": 115
+        },
+        {
+            "name": "Champiñones",
+            "id": 117
+        },
+        {
+            "name": "Seta",
+            "id": 118
+        },
+        {
+            "name": "Fruta y verdura",
+            "id": 119
+        },
+        {
+            "name": "Arroz",
+            "id": 120
+        },
+        {
+            "name": "Quinoa",
+            "id": 121
+        },
+        {
+            "name": "Cous cous",
+            "id": 122
+        },
+        {
+            "name": "Garbanzo",
+            "id": 123
+        },
+        {
+            "name": "Alubia",
+            "id": 124
+        },
+        {
+            "name": "Lenteja",
+            "id": 125
+        },
+        {
+            "name": "Soja",
+            "id": 126
+        },
+        {
+            "name": "Pasta",
+            "id": 127
+        },
+        {
+            "name": "Arroz, legumbres y pasta",
+            "id": 128
+        },
+        {
+            "name": "Atún",
+            "id": 129
+        },
+        {
+            "name": "Bonito",
+            "id": 130
+        },
+        {
+            "name": "Caballa",
+            "id": 131
+        },
+        {
+            "name": "Melva",
+            "id": 132
+        },
+        {
+            "name": "Sardinas",
+            "id": 133
+        },
+        {
+            "name": "Calamares",
+            "id": 134
+        },
+        {
+            "name": "Salmón",
+            "id": 135
+        },
+        {
+            "name": "Berberechos",
+            "id": 136
+        },
+        {
+            "name": "Almejas",
+            "id": 137
+        },
+        {
+            "name": "Zamburiñas",
+            "id": 138
+        },
+        {
+            "name": "Pimientos",
+            "id": 140
+        },
+        {
+            "name": "Guisantes",
+            "id": 141
+        },
+        {
+            "name": "Judías",
+            "id": 142
+        },
+        {
+            "name": "Alcachofas",
+            "id": 143
+        },
+        {
+            "name": "Zanahorias",
+            "id": 144
+        },
+        {
+            "name": "Macedonia",
+            "id": 146
+        },
+        {
+            "name": "Verduras",
+            "id": 147
+        },
+        {
+            "name": "Patatas",
+            "id": 148
+        },
+        {
+            "name": "Brotes",
+            "id": 150
+        },
+        {
+            "name": "Chucrut",
+            "id": 153
+        },
+        {
+            "name": "Melocotón",
+            "id": 155
+        },
+        {
+            "name": "Membrillo",
+            "id": 156
+        },
+        {
+            "name": "Cerezas",
+            "id": 157
+        },
+        {
+            "name": "Gazpacho",
+            "id": 159
+        },
+        {
+            "name": "Salmorejo",
+            "id": 160
+        },
+        {
+            "name": "Sopa",
+            "id": 163
+        },
+        {
+            "name": "Caldo",
+            "id": 164
+        },
+        {
+            "name": "Conservas, caldos y cremas",
+            "id": 166
+        },
+        {
+            "name": "Patatas fritas",
+            "id": 167
+        },
+        {
+            "name": "Snacks",
+            "id": 168
+        },
+        {
+            "name": "Frutos secos",
+            "id": 169
+        },
+        {
+            "name": "Aceitunas",
+            "id": 170
+        },
+        {
+            "name": "Pepinillos",
+            "id": 171
+        },
+        {
+            "name": "Pizza",
+            "id": 173
+        },
+        {
+            "name": "Lasaña",
+            "id": 174
+        },
+        {
+            "name": "Canelones",
+            "id": 175
+        },
+        {
+            "name": "Tortilla",
+            "id": 178
+        },
+        {
+            "name": "Puré",
+            "id": 184
+        },
+        {
+            "name": "Platos preparados",
+            "id": 185
+        },
+        {
+            "name": "Gnocchi",
+            "id": 189
+        },
+        {
+            "name": "Cochinillo",
+            "id": 195
+        },
+        {
+            "name": "Vacuno",
+            "id": 196
+        },
+        {
+            "name": "Helado",
+            "id": 197
+        },
+        {
+            "name": "Granizado",
+            "id": 198
+        },
+        {
+            "name": "Tarta",
+            "id": 199
+        },
+        {
+            "name": "Churros",
+            "id": 200
+        },
+        {
+            "name": "Crepes",
+            "id": 201
+        },
+        {
+            "name": "Frutos rojos",
+            "id": 202
+        },
+        {
+            "name": "Verdura",
+            "id": 203
+        },
+        {
+            "name": "Pescado y marisco",
+            "id": 204
+        },
+        {
+            "name": "Congelados",
+            "id": 205
+        },
+        {
+            "name": "Gambas y langostinos",
+            "id": 206
+        },
+        {
+            "name": "Camarones",
+            "id": 207
+        },
+        {
+            "name": "Moluscos",
+            "id": 208
+        },
+        {
+            "name": "Pescados",
+            "id": 209
+        },
+        {
+            "name": "Marisco y pescado",
+            "id": 210
+        },
+        {
+            "name": "Vino",
+            "id": 211
+        },
+        {
+            "name": "Cerveza",
+            "id": 212
+        },
+        {
+            "name": "Licor",
+            "id": 213
+        },
+        {
+            "name": "Cava y Champán",
+            "id": 214
+        },
+        {
+            "name": "Bebida alcohólica",
+            "id": 215
+        }
+    ]
+}

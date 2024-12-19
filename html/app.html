@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendación de Compras</title>
+</head>
+<body>
+    <h1>Bienvenido al sistema de recomendación de compras</h1>
+    <form action="/procesar_datos" method="POST">
+        <div id="categorias" style="display: none;">
+            <label for="buscar_categoria">Buscar categoría:</label>
+            <input type="text" id="buscar_categoria" name="buscar_categoria" onkeyup="filtrarCategorias()">
+            <br><br>
+            <div id="lista_categorias">
+                <!-- Aquí se mostrarán las categorías filtradas -->
+            </div>
+            <label for="categorias">Seleccione las categorías (separadas por comas):</label>
+            <input type="text" id="categorias" name="categorias">
+            <button onclick="agregarCategorias()">Agregar categorías</button>
+            <br><br>
+            <label for="presupuesto">Ingrese el presupuesto:</label>
+            <input type="number" id="presupuesto" name="presupuesto" step="0.01">
+            <button onclick="agregarPresupuesto()">Agregar presupuesto</button>
+            <br><br>
+            <label for="repartir_presupuesto">¿Desea repartir el presupuesto entre las categorías?</label>
+            <select id="repartir_presupuesto" name="repartir_presupuesto">
+                <option value="s">Sí</option>
+                <option value="n">No</option>
+            </select>
+            <br><br>
+            <div id="presupuestos_parciales" style="display: none;">
+                <!-- Aquí se agregarán los presupuestos parciales por categoría -->
+            </div>
+            <br><br>
+            <div id="num_articulos" style="display: none;">
+                <!-- Aquí se agregarán los campos para el número de artículos por categoría -->
+            </div>
+            <button onclick="enviarDatos()">Enviar datos</button>
+        </div>
+        <br><br>
+
+    <script>
+        document.getElementById('categorias').style.display = 'block';
+
+        document.getElementById('repartir_presupuesto').addEventListener('change', function() {
+            if (this.value == 's') {
+                document.getElementById('presupuestos_parciales').style.display = 'block';
+            } else {
+                document.getElementById('presupuestos_parciales').style.display = 'none';
+            }
+        });
+
+        async function agregarCategorias() {
+            var categorias = document.getElementById('categorias').value.split(',');
+            if (categorias.length == 0) {
+                alert('Debe seleccionar al menos una categoría');
+                return;
+            } else if(categorias.length == 1){
+                document.getElementById('repartir_presupuesto').style.display = 'none';
+            }
+        }
+
+        async function agregarPresupuesto() {
+            var presupuesto = document.getElementById('presupuesto').value;
+            if (presupuesto == '') {
+                alert('Debe ingresar un presupuesto');
+                return;
+            }
+            document.getElementById('num_articulos').style.display = 'block';
+            getNumArticulos();
+        }
+
+        async function getNumArticulos() {
+            var categorias = document.getElementById('categorias').value.split(',');
+            for (var i = 0; i < categorias.length; i++) {
+                var presupuesto_parcial = document.createElement('input');
+                presupuesto_parcial.type = 'number';
+                presupuesto_parcial.id = 'presupuesto_parcial_' + i;
+                presupuesto_parcial.name = 'presupuesto_parcial_' + i;
+                presupuesto_parcial.step = '0.01';
+                presupuesto_parcial.placeholder = 'Presupuesto para ' + categorias[i];
+                document.getElementById('presupuestos_parciales').appendChild(presupuesto_parcial);
+
+                var num_articulos = document.createElement('input');
+                num_articulos.type = 'number';
+                num_articulos.id = 'num_articulos_' + i;
+                num_articulos.name = 'num_articulos_' + i;
+                num_articulos.placeholder = 'Número de artículos para ' + categorias[i];
+                document.getElementById('num_articulos').appendChild(num_articulos);
+            }
+        }
+
+        async function filtrarCategorias() {
+            var input, filter, categorias, i, txtValue;
+            input = document.getElementById('buscar_categoria');
+            filter = input.value.toUpperCase();
+            categorias = await fetch('/categorias')
+                .then(response => response.json())
+                .then(data => data.categorias);
+            //console.log('Categorías:', categorias);
+
+            let array_categories = categorias.map(categoria => ({
+                name: categoria.name || 'Sin nombre',
+                id: categoria.id || 'Sin ID'
+            }));
+            //console.log('Categorías:', array_categories);
+
+            document.getElementById('lista_categorias').innerHTML = '';
+            for (i = 0; i < array_categories.length; i++) {
+                txtValue = array_categories[i].name;
+                idValue = array_categories[i].id;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    document.getElementById('lista_categorias').innerHTML += '<li name="categoria" value="' + txtValue + "," + idValue + '">' + txtValue + "--->" + idValue + '</li>';
+                }
+            }
+        }
+    async function enviarDatos() {
+        var categorias = document.getElementById('categorias').value.split(',').map(Number);
+        var presupuesto = parseFloat(document.getElementById('presupuesto').value);
+        var repartirPresupuesto = document.getElementById('repartir_presupuesto').value;
+        var presupuestosParciales = {};
+        var numArticulos = {};
+
+        if (repartirPresupuesto === 's') {
+            for (var i = 0; i < categorias.length; i++) {
+                var presupuestoParcial = parseFloat(document.getElementById('presupuesto_parcial_' + i).value);
+                presupuestosParciales[categorias[i]] = presupuestoParcial;
+            }
+        } else {
+            for (var i = 0; i < categorias.length; i++) {
+                presupuestosParciales[categorias[i]] = presupuesto / categorias.length;
+            }
+        }
+
+        for (var i = 0; i < categorias.length; i++) {
+            var numArt = parseInt(document.getElementById('num_articulos_' + i).value);
+            numArticulos[categorias[i]] = numArt;
+        }
+
+        var data = {
+            categorias: categorias,
+            presupuesto: presupuesto,
+            presupuestosParciales: presupuestosParciales,
+            numArticulos: numArticulos
+        };
+
+        var response = await fetch('/procesar_datos', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+
+        var result = await response.json();
+        mostrarResultados(result);
+    }
+
+    function mostrarResultados(result) {
+        var resultadoDiv = document.createElement('div');
+        resultadoDiv.innerHTML = '<h2>Resultados de la optimización</h2>';
+        result.forEach(categoria => {
+            var categoriaDiv = document.createElement('div');
+            categoriaDiv.innerHTML = `<h3>Categoría: ${categoria.nombre}</h3>`;
+            categoria.articulos.forEach(articulo => {
+                var articuloDiv = document.createElement('div');
+                articuloDiv.innerHTML = `Nombre: ${articulo.nombre}, Precio: ${articulo.precio}, Valoración: ${articulo.valoracion}, Cantidad: ${articulo.cantidad}`;
+                categoriaDiv.appendChild(articuloDiv);
+            });
+            resultadoDiv.appendChild(categoriaDiv);
+        });
+        document.body.appendChild(resultadoDiv);
+    }
+</script>
+</body>
+</html>
